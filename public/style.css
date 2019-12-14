@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Slabo');
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: 1.2em;
+}
+
+li {
+  font-size: .95em;
+  list-style-type: square;
+}
+
+h1 {
+  text-align: center;
+  padding: 30px 0 20px;
+  margin: 0;
+}
+
+#userstories {
+  padding-top: 0;
+}
+
+code {
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #c7254e;
+    background-color: #f9f2f4;
+    border-radius: 4px;
+}
+
+input[type="text"] {
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,1);
+  border-radius: 30px;
+  height: 30px;
+  width: 250px;
+  padding-left: 20px; 
+  font-family: 'Open Sans', san-serif;
+}
+
+input[type="submit"] {
+  height: 35px;
+  border-radius: 10px;
+  border: 1px solid rgba(0,0,0,0);
+  background-color: RGB(0,120,215);
+  width: 100px;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+  font-family: 'Open Sans', san-serif;
+}
